@@ -1,0 +1,15 @@
+group 'dumb-things'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.5.7.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
