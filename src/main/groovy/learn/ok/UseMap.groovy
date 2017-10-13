@@ -10,7 +10,6 @@ class UseMap implements Use {
 
     @Override
     String use(int something) {
-        makeMap()
         String result = map.get(something)
 
         if(result != null){
