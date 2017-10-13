@@ -21,7 +21,7 @@ class UseIf implements Use {
             return "now it's all out of order and I don't know what to do."
         }
 
-        return 'you learn.dumb AF'
+        return 'you dumb AF'
 
 
     }

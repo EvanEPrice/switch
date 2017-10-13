@@ -20,7 +20,7 @@ class UseSwitch implements Use{
             case 5:
                 return "now it's all out of order and I don't know what to do."
             default:
-                return 'you learn.dumb AF'
+                return 'you dumb AF'
         }
 
     }
