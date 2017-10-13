@@ -1,12 +1,12 @@
 package learn.dumb
 
-import learn.DoThing
+import learn.Use
 import org.springframework.stereotype.Component
 
 @Component
-class If implements DoThing {
+class UseIf implements Use {
 
-    String thing(int something){
+    String use(int something){
 
         if(something == 0) {
             return "zero I guess"

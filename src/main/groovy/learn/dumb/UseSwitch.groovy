@@ -1,13 +1,13 @@
 package learn.dumb
 
-import learn.DoThing
+import learn.Use
 import org.springframework.stereotype.Component
 
 @Component
-class Switch implements DoThing{
+class UseSwitch implements Use{
 
 
-    String thing(int something){
+    String use(int something){
 
         switch(something) {
             case 0:
