@@ -1,6 +1,6 @@
 package learn.ok
 
-import learn.dumb.DoThing
+import learn.DoThing
 import org.springframework.stereotype.Component
 
 @Component

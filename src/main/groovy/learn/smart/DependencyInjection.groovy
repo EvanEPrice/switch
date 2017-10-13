@@ -1,6 +1,6 @@
 package learn.smart
 
-import learn.dumb.DoThing
+import learn.DoThing
 import learn.smart.things.Something
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
