@@ -1,16 +1,17 @@
-package dumb.things
+package learn.smart.things
 
 import org.springframework.stereotype.Component
 
 @Component
-class Thing3 implements Something{
+class Thing1or2 implements Something {
+
     @Override
     boolean condition(int something) {
-        return something == 3
+        return something == 1 || something == 2
     }
 
     @Override
     String logic() {
-        return "this is getting dumb"
+        return "1 or 2"
     }
 }

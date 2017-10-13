@@ -1,4 +1,4 @@
-group 'dumb-things'
+group 'learn.dumb-things'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'groovy'

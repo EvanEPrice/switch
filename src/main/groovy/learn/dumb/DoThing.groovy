@@ -1,4 +1,4 @@
-package dumb
+package learn.dumb
 
 interface DoThing {
 

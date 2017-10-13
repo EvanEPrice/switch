@@ -1,4 +1,4 @@
-package dumb.things
+package learn.smart.things
 
 interface Something {
 

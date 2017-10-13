@@ -1,4 +1,4 @@
-package dumb
+package learn.dumb
 
 import org.springframework.stereotype.Component
 
@@ -20,7 +20,7 @@ class If implements DoThing {
             return "now it's all out of order and I don't know what to do."
         }
 
-        return 'you dumb AF'
+        return 'you learn.dumb AF'
 
 
     }

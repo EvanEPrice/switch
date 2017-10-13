@@ -1,6 +1,7 @@
-package dumb
+package learn.smart
 
-import dumb.things.Something
+import learn.dumb.DoThing
+import learn.smart.things.Something
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
@@ -19,7 +20,7 @@ class DependencyInjection  implements DoThing {
             }
         }
 
-        return 'you dumb AF'
+        return 'you learn.dumb AF'
 
     }
 }
